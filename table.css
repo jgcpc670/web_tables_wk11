@@ -43,3 +43,7 @@ table col#hourCols {
 table thead {
    background-color: rgb(17, 54, 73)
 }
+
+table tbody > tr td:hover {
+   background-color: rgb(127, 255, 253);
+}
