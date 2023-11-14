@@ -1,0 +1,8 @@
+.link {
+    display: inline-block;
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 206, 206);
+    border: 2px solid black;
+}
