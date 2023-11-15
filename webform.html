@@ -7,11 +7,12 @@
     
 </head>
 
- <div class="link">
+<div class="link">
     <a href="web-tables.html">Link to Web Table</a>
  </div>
 
  <body>
+    <div class="container">
     <h1>My First Web Form</h1>
     <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
         <fieldset id="1">
@@ -33,14 +34,15 @@
             <input name="userTel" tabindex="6" id="tel" type="tel" placeholder="1 (670) XXX-XXXX"/><br>
         </fieldset>
         <fieldset id="3">
-            <legend>Birthday</legend>
+            <legend>Dates</legend>
             <label for="birthday">Birthday</label>
             <input name="userBirthday" tabindex="7" required id="birthday" type="date" /><br>
             <label for="date">Today's Date</label>
             <input name="todayDate" tabindex="8 "required id="date" type="date" value="todayDate" />
         </fieldset>
-        <input tabindex="9" type="submit">
+        <input type="submit" tabindex="9"  >
     </form>
     <iframe name="cgi-results" id="cgi-results"></iframe>
+  </div>
  </body>
 </html>
